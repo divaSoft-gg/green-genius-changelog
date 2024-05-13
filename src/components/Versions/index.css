@@ -1,0 +1,60 @@
+/* .versionDataContainer{} */
+.versionDataContainer {
+    max-width: 1000px;
+    margin: 2rem auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.versionRow {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+
+    padding: 4rem 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.versionOverview small {
+    color: var(--text-color-2);
+}
+
+.versionColum {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.versionColum h2 {
+    margin-bottom: 1rem;
+}
+
+.versionColum ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+.versionColum li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.versionColum li svg {
+    scale: 1.2;
+}
+
+.addedIcon {
+    color: #15A38D;
+}
+
+.fixedIcon {
+    color: #E70C4E;
+}
+
+.changedIcon {
+    color: #9784F5;
+}
