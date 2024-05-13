@@ -7,8 +7,8 @@ header {
     color: var(--text-color-1);
 
     /* Grid BG */
-    background-size: 20px 20px;
-    background-image: linear-gradient(to right, #23262d 1px, transparent 1px), linear-gradient(to bottom, #23262d 1px, transparent 1px);
+    background-size: 30px 30px;
+    background-image: linear-gradient(to bottom, #efeff0 .8px, transparent .8px), linear-gradient(to left, #DCDEE0 .8px, transparent .8px);
     background-position: top center;
     image-rendering: pixelated;
     mask-image: linear-gradient(to bottom, transparent, 10%, rgb(255, 255, 255), 90%, transparent);
@@ -61,22 +61,24 @@ header {
 .brandName span {
     font-weight: 500;
     text-transform: capitalize;
+    color: var(--text-color-0);
 }
 
 .brandName small {
     font-size: .8rem;
     font-weight: 200;
+    color: var(--text-color-0);
 }
 
 .brandName small a {
     text-decoration: none;
-    color: var(--text-color-1);
 }
 
 /* *** */
 .changelogDescription {
-    font-size: .8rem;
+    font-size: 1.1rem;
     font-weight: 200;
     margin-top: 2rem;
-    max-width: 600px;
+    max-width: 800px;
+    color: var(--text-color-0);
 }

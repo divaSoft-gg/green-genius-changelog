@@ -1,14 +1,11 @@
 :root {
     /* COLORS */
-    --bg-color: #181a1f;
-    --bg-color-2: #24272f;
+    --bg-color: #FFFFFF;
+    --border-color: #DCDEE0;
 
-    --border-color: #262930;
-    --border-color-2: #474c56;
-
-    --input-bg-color: #23262d;
-    --text-color-1: #ffffff;
-    --text-color-2: #8e95a0;
+    --text-color-0: #000000;
+    --text-color-1: #0F1216;
+    --text-color-2: #6D737D;
 }
 
 *,
