@@ -3,10 +3,12 @@ export const VERSION_DETAILS = [
         "version": "1.2.1",
         "date": "Work In Progress",
         "added": [
-            "OF module",
+            "Dashboard updated: Added variables count",
             "Transportation management: Waste",
         ],
-        "changed": [],
+        "changed": [
+            "Updated UI to be consistant"
+        ],
         "fixed": [],
     },
     {
@@ -30,10 +32,12 @@ export const VERSION_DETAILS = [
         "added": [
             "Settings: Transportation management",
             "Settings: Location management",
-            "Settings: Location management",
-            "Settings: Location management",
-            "Settings: Location management",
-            "Settings: Location management",
+            "Settings: Materials management",
+            "Settings: Energy sources management",
+            "Facility Settings: Profile management",
+            "Facility Settings: process management",
+            "Facility Settings: purchase management",
+            "Facility Settings: bills management",
         ],
         "changed": [],
         "fixed": [],
