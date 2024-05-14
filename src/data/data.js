@@ -1,7 +1,7 @@
 export const VERSION_DETAILS = [
     {
         "version": "1.2.1",
-        "date": "Work In Progress",
+        "date": "May 13, 2024",
         "added": [
             "Dashboard updated: Added variables count",
             "Transportation management: Waste",
