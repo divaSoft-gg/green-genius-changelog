@@ -1,5 +1,20 @@
 export const VERSION_DETAILS = [
     {
+        "version": "1.5.3",
+        "date": "WIP",
+        "added": [
+            "Stock management (manual / through purchases)",
+            "OF management",
+        ],
+        "changed": [
+            "OF management: Made article into a dynamic list",
+            "OF management: Made client into a dynamic list"
+        ],
+        "fixed": [
+            "Made resouces count scoped to active facility"
+        ],
+    },
+    {
         "version": "1.2.1",
         "date": "May 13, 2024",
         "added": [
