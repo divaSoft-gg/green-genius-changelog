@@ -8,7 +8,8 @@ export const VERSION_DETAILS = [
         ],
         "changed": [
             "OF management: Made article into a dynamic list",
-            "OF management: Made client into a dynamic list"
+            "OF management: Made client into a dynamic list",
+            "UI: Changed loader to be on top rather than using an animated leaf SVG",
         ],
         "fixed": [
             "Made resouces count scoped to active facility"
