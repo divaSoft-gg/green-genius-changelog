@@ -1,15 +1,18 @@
 export const VERSION_DETAILS = [
     {
-        "version": "1.5.3",
-        "date": "WIP",
+        "version": "1.8.3",
+        "date": "June 07, 2024",
         "added": [
             "Stock management (manual / through purchases)",
-            "OF management",
+            "OF Management: quantity for each article",
+            "Toasters for notification",
+            "Settings Module: deletion for materials, transportation, location and bills",
         ],
         "changed": [
             "OF management: Made article into a dynamic list",
             "OF management: Made client into a dynamic list",
             "UI: Changed loader to be on top rather than using an animated leaf SVG",
+            "UI: Changed managed variables to use sidebar instead of modals",
         ],
         "fixed": [
             "Made resouces count scoped to active facility"
