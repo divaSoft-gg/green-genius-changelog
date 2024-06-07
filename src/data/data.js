@@ -3,7 +3,7 @@ export const VERSION_DETAILS = [
         "version": "1.8.3",
         "date": "June 07, 2024",
         "added": [
-            "Stock management (manual / through purchases)",
+            "Stock management (Manual : Purchase : OF)",
             "OF Management: quantity for each article",
             "Toasters for notification",
             "Settings Module: deletion for materials, transportation, location and bills",
