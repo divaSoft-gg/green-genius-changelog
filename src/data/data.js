@@ -1,14 +1,17 @@
 export const VERSION_DETAILS = [
     {
-        "version": "1.14.6",
-        "date": "WIP",
+        "version": "1.15.7",
+        "date": "June 24, 2024",
         "added": [
             "OF Management: resources consumption tab",
             "Transportation Management: specify client/OF for each delivery",
             "Purchase Management: manage clients",
             "Purchase Management: manage suppliers",
             "Global search functionality",
-            "Pagination and lazy loading for large data sets",    
+            "Pagination and lazy loading for large data sets",
+            "Waste Management: specify different waste types",
+            "Waste Management: Handle waste piles transportation",
+            "Waste Management: Handle waste pile (stock) management",
         ],
         "changed": [
             "UI: Main navigation redefined",
@@ -20,6 +23,7 @@ export const VERSION_DETAILS = [
             "Route recognition for SPA within Netlify",
             "Materials not loading in OF Manager",
             "Process update post creation",
+            "Transportation: Delivery update action"
         ],
     },
     {
