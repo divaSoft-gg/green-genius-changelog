@@ -1,5 +1,22 @@
 export const VERSION_DETAILS = [
     {
+        "version": "1.18.4",
+        "date": "June 27, 2024",
+        "added": [
+            "API pagination",
+            "Facility Management: Load supplier's address on select",
+        ],
+        "changed": [
+            "Authentication workflow",
+            "Backend relations",
+        ],
+        "fixed": [
+            "Settings Management: Unit can't be saved as float",
+            "Settings Managmeent: Stock item unit removed",
+            "OF Management: Energy source consumption unit",
+        ],
+    },
+    {
         "version": "1.15.7",
         "date": "June 24, 2024",
         "added": [
