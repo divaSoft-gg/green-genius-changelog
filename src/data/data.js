@@ -1,5 +1,17 @@
 export const VERSION_DETAILS = [
     {
+        "version": "2.0.0",
+        "date": "WIP",
+        "added": [
+        ],
+        "changed": [
+            "API Respose interface",
+            "Front End Request interface",
+        ],
+        "fixed": [
+        ],
+    },
+    {
         "version": "1.18.4",
         "date": "June 27, 2024",
         "added": [
