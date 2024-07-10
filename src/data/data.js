@@ -1,14 +1,22 @@
 export const VERSION_DETAILS = [
     {
-        "version": "2.0.0",
-        "date": "WIP",
+        "version": "2.9.9",
+        "date": "July 10, 2024",
         "added": [
+            "Settings mgmt: unit table with predefined list of different catergories",
+            "Transportation mgmt: refactored core logic to rely on  a shared entity and methods",
+            "Settings mgmt: refactored core logic to rely on a shared entity and methods",
         ],
         "changed": [
             "API Respose interface",
             "Front End Request interface",
         ],
         "fixed": [
+            "Transportation Management: routing to index post update",
+            "Transportation Management: refactored fetching logic to work correctly",
+            "Transportation Management: typo in module header",
+            "Waste Management: piles selection under transportation section",
+            "Waste Management: typo in module header",
         ],
     },
     {
