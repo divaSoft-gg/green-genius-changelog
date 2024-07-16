@@ -1,11 +1,27 @@
 export const VERSION_DETAILS = [
     {
+        "version": "2.11.4",
+        "date": "July 16, 2024",
+        "added": [
+            "Ability to pin navigation links",
+            "Facility Management: profile image",
+        ],
+        "changed": [],
+        "fixed": [
+            "Profile image resetting on name change",
+            "OF Management: Materials duplicate selection",
+            "OF Management: Materials unite not showing correctly",
+            "OF Management: Materials tab can not be saved",
+            "OF Management: Consumption tab can not be saved",
+        ],
+    },
+    {
         "version": "2.9.9",
         "date": "July 10, 2024",
         "added": [
-            "Settings mgmt: unit table with predefined list of different catergories",
-            "Transportation mgmt: refactored core logic to rely on  a shared entity and methods",
-            "Settings mgmt: refactored core logic to rely on a shared entity and methods",
+            "Settings Management: unit table with predefined list of different catergories",
+            "Transportation Management: refactored core logic to rely on  a shared entity and methods",
+            "Settings Management: refactored core logic to rely on a shared entity and methods",
         ],
         "changed": [
             "API Respose interface",
