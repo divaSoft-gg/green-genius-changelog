@@ -1,5 +1,17 @@
 export const VERSION_DETAILS = [
     {
+        "version": "2.12.0",
+        "date": "August 5, 2024",
+        "added": [
+            "User Interface translation",
+        ],
+        "changed": [
+            "Enhaced UI",
+            "Updated the search interface",
+        ],
+        "fixed": [],
+    },
+    {
         "version": "2.11.4",
         "date": "July 16, 2024",
         "added": [
